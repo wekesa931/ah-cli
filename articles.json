@@ -20,29 +20,6 @@
         ],
         "title": "What is love, baby don't heard me",
         "updatedAt": "2019-04-26T11:48:53.196764Z",
-        "views": 11
-    },
-    {
-        "author": 6,
-        "body": "dkjfdsjg.",
-        "comments": [],
-        "createdAt": "2019-04-26T11:36:42.556913Z",
-        "description": "Ever wonder how?",
-        "dislikes": 0,
-        "id": 2,
-        "image": "http://res.cloudinary.com/kwangonya/image/upload/v1556278602/ah-django/new_wangonya.png",
-        "like_popularity": 1,
-        "likes": 1,
-        "rating": 0,
-        "reading_time": "less than 1 minute",
-        "reads": 0,
-        "slug": "new_wangonya",
-        "tagList": [
-            "dragons",
-            "training"
-        ],
-        "title": "new",
-        "updatedAt": "2019-04-26T11:36:42.556970Z",
-        "views": 224
+        "views": 25
     }
 ]

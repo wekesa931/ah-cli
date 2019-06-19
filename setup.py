@@ -5,7 +5,8 @@ setup(
     version="1.0.0",
     py_module=['ahcli'],
     install_requires=[
-        'Click'
+        'Click',
+        'pytest'
     ],
     entry_points='''
     [console_scripts]
