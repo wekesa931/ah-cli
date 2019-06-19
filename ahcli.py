@@ -22,6 +22,7 @@ def list(slug,limit):
         conn = urllib.request.urlopen(new_url)
         the_page = conn.read().decode('utf8')
         response_code = conn.getcode()
+        print(response_code)
         new_data = None
         if slug == 'feed':
             data = json.loads(the_page)['results']
@@ -48,6 +49,7 @@ def list(slug,limit):
         # ...
         print('URLError: {}'.format(e.reason))
 
+
 @cli.command()
 @click.option('--by', default='',
                 help='A string to show emotions')
@@ -55,7 +57,6 @@ def search(by):
     prefix = '/search?'
     try:
         new_url =url + prefix + by
-        print(new_url)
         conn = urllib.request.urlopen(new_url)
         the_page = conn.read().decode('utf8')
         response_code = conn.getcode()
