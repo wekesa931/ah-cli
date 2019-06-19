@@ -3,6 +3,7 @@ A python command line application to consume Author's Haven application
 ## TO run the application
 - clone the repo and run setup
 ```
+git clone https://github.com/wekesa931/ah-cli.git
 pip install --editable .
 ```
 
